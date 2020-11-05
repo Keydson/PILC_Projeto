@@ -1,4 +1,57 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #a8f2ff;
+    height: 100vh;
+}
+
+header{
+    height: auto;
+    background-color: #00d6fb;
+    text-align: center;
+}
+
+.logo{
+    margin-top: 5px;
+    height: 4em;
+}
+
+nav{
+    background-color:#00C1E3;
+}
+
+.boxMenu{
+    padding: 10px 0 10px 0;
+    text-align: center;
+    border-right: solid white 1px;
+
+}
+
+.menu{
+    outline: 0;
+    color: white;
+    text-decoration: none;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/* .barLateral{
+    width: 15vw;
+    height: 100vh;
+    background-color: #00d6fb;
+} */
+
+.proposta > h1{
+    color: white;
+    text-align:  center;
+    padding: 10px 0 10px 0;
+}
+
+p{
+    color: white;
+    text-indent: 50px;
+    font-size: large;
 }
