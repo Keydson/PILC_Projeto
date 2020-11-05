@@ -2,9 +2,20 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
+
+@font-face {
+	font-family: VALORANT;
+	src: url(../fonts/Valorant\ Font.ttf)
+}
+
+.clear{
+    clear: both;
+}
+
 body{
-    background-color: #a8f2ff;
+    background-color: #595959;
     height: 100vh;
 }
 
@@ -12,46 +23,51 @@ header{
     height: auto;
     background-color: #00d6fb;
     text-align: center;
+    padding-bottom: 10px;   
 }
 
 .logo{
-    margin-top: 5px;
-    height: 4em;
+    color: white;
+    padding-top: 15px;
+    font-size: 50px;
+    font-family: VALORANT;
+}
+
+.separador{
+    border-top: solid white 1px;
+    width: 95%;
+    margin: 0 auto;
+    background-color: #00d6fb;
+}
+
+.barraNav{
+    background-color:  #00d6fb;
 }
 
 nav{
-    background-color:#00C1E3;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #00d6fb;
 }
 
 .boxMenu{
     padding: 10px 0 10px 0;
     text-align: center;
-    border-right: solid white 1px;
+    width: 100%;
+}
 
+.barSection{
+    border-right: 1px solid white;
 }
 
 .menu{
+    margin: 0 auto;
     outline: 0;
     color: white;
     text-decoration: none;
-    padding-left: 100px;
-    padding-right: 100px;
-}
-
-/* .barLateral{
-    width: 15vw;
-    height: 100vh;
-    background-color: #00d6fb;
-} */
-
-.proposta > h1{
-    color: white;
-    text-align:  center;
-    padding: 10px 0 10px 0;
-}
-
-p{
-    color: white;
-    text-indent: 50px;
-    font-size: large;
+    margin: -1px;
+    width: calc(100%/3);
+    float: left;
+    white-space: nowrap;
+    font-weight: bolder;
 }

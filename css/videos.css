@@ -1,0 +1,36 @@
+.video-container {
+    overflow: hidden;
+    position: relative;
+    width:50%;
+    left: 25%;
+    right: 25%;
+    margin-top: 15px;
+}
+
+.video-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.tituloVideo, .descricao{
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.descricao{
+    text-indent: 50px;
+    font-size: large;
+    text-align: justify;
+    padding: 25px 100px 50px 100px;
+    line-height: 1.5em;
+}
