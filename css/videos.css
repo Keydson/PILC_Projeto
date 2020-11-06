@@ -1,9 +1,9 @@
 .video-container {
     overflow: hidden;
     position: relative;
-    width:50%;
-    left: 25%;
-    right: 25%;
+    width:80%;
+    left: 10%;
+    right: 10%;
     margin-top: 15px;
 }
 
@@ -35,4 +35,5 @@
     padding-left: 5%;
     padding-right: 5%;
     line-height: 1.5em;
+    padding-top: 25px;
 }
