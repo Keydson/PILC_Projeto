@@ -66,7 +66,7 @@ nav{
     color: white;
     text-decoration: none;
     margin: -1px;
-    width: calc(100%/3);
+    width: calc(100%/4);
     float: left;
     font-size: 1.5vw;
     white-space: nowrap;
