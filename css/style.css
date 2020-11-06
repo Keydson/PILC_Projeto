@@ -72,3 +72,7 @@ nav{
     white-space: nowrap;
     font-weight: bolder;
 }
+
+footer{
+    height: 20vh;;
+}
