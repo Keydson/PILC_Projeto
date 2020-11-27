@@ -10,44 +10,52 @@
 	src: url(../fonts/Valorant\ Font.ttf)
 }
 
+:root{
+    --color-background-menu: #eb5e28;
+    --color-text-menu: #403d39;
+    --color-text: #ccc5b9;
+    --font-size-text: calc(0.625rem + 0.5vw);
+    --font-size-title: calc(1rem + 0.5vw);
+    --font-size-title-big: calc(0.5rem + 2vw);
+}
+
 .clear{
     clear: both;
 }
 
 body{
-    background-color: #595959;
-    height: 100vh;
+    background-color: #252422;
 }
 
 header{
     height: auto;
-    background-color: #00d6fb;
+    background-color: var(--color-background-menu);
     text-align: center;
-    padding-bottom: 10px;   
+    padding-bottom: 1%;   
 }
 
 .logo{
-    color: white;
+    color: var(--color-text-menu);
     padding-top: 15px;
-    font-size: 3.8vw;
+    font-size: 3rem;
     font-family: VALORANT;
 }
 
 .separador{
-    border-top: solid white 1px;
+    border-top: solid var(--color-text-menu) 1px;
     width: 95%;
     margin: 0 auto;
-    background-color: #00d6fb;
+    background-color: var(--color-background-menu);
 }
 
 .barraNav{
-    background-color:  #00d6fb;
+    background-color:  var(--color-background-menu);
 }
 
 nav{
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #00d6fb;
+    background-color: var(--color-background-menu);
 }
 
 .boxMenu{
@@ -57,22 +65,36 @@ nav{
 }
 
 .barSection{
-    border-right: 1px solid white;
+    border-right: 1px solid var(--color-text-menu);
 }
 
 .menu{
     margin: 0 auto;
     outline: 0;
-    color: white;
+    color: var(--color-text-menu);
     text-decoration: none;
     margin: -1px;
     width: calc(100%/4);
     float: left;
-    font-size: 1.5vw;
+    font-size: var(--font-size-text);
     white-space: nowrap;
     font-weight: bolder;
 }
 
 footer{
-    height: 20vh;;
+    height: 4rem;
 }
+
+section{
+    width: 90%;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 650px) {
+    .logo{
+        font-size: 2em;
+    }
+    .menu{
+        font-size: calc(0.325rem + 0.5vw);
+    }
+  }

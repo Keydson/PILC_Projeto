@@ -1,9 +1,8 @@
 .video-container {
     overflow: hidden;
     position: relative;
-    width:80%;
-    left: 10%;
-    right: 10%;
+    width:35em;
+    margin: 0 auto;
     margin-top: 15px;
 }
 
@@ -22,18 +21,20 @@
 }
 
 .tituloVideo, .descricao{
-    color: white;
+    color: var(--color-text);
     text-align: center;
-    padding-top: 15px;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    font-size: var(--font-size-title);
 }
 
 .descricao{
-    text-indent: 50px;
-    font-size: large;
+    text-indent: 3%;
+    font-size: var(--font-size-text);
     text-align: justify;
     padding: 5px 0px 5px 0px;
-    padding-left: 5%;
-    padding-right: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
     line-height: 1.5em;
-    padding-top: 25px;
+    margin-top: 4%;
 }
