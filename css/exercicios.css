@@ -35,7 +35,7 @@ p{
 }
 
 .image{
-    width: 25%;
+    width: 25em;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -43,8 +43,58 @@ p{
     padding-bottom: 1.5%;
 }
 
+label{
+    font-size: var(--font-size-text);
+    color: var(--color-text);
+}
+
+.labelImage{
+    margin: 3% 10% 3% 10%;
+    text-align: center;
+}
+
+.list{
+    color: var(--color-text);
+    padding-top: 1%;
+    margin-left: 2%;
+    font-size: var(--font-size-text);
+    margin-bottom: 3%;
+}
+
+dd{
+    margin-left: 5%;
+    white-space: nowrap;
+    margin-top: 1%;
+}
+
+dt{
+    text-indent: 3%;
+}
+
+.imageSchema{
+    width: 50%;
+}
+
+.imageCode{
+    width: 70%;
+}
+
 @media only screen and (max-width: 650px) {
     .image{
         width: 100%;
+    }
+    .imageSchema{
+        width: 25em;
+    }
+    
+    .imageCode{
+        width: 25em;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .boxImagePratic{
+        display: flex; 
+        justify-content: center;
     }
 }
